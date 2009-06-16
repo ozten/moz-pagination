@@ -15,3 +15,7 @@ It then gives you an object with properties that
 Optional
 Also included is a PHP include template fragment that provides pagination navigation with
 gettext strings. You can use it directly, or as an example if you want to do something different.
+
+Other Libraries:
+If you are building a Kohana or CakePHP app, you may want to use their pagination helpers:
+http://docs.kohanaphp.com/libraries/pagination 
