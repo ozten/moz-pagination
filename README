@@ -1,0 +1,17 @@
+Mozilla WebDev Pagination
+moz_pagination is a very simple PHP library for helping with pagination.
+
+It provides the MozPager php class.
+
+This class is instanciated with $itemsPerPage, $totalItemCount and optionally $currentPage.
+It then gives you an object with properties that
+* tells you if there is a next page
+* next page's number
+* tells you if there is a previous page
+* previous page's number
+* offset to bind to a database query
+* itemsPerPage for use as the LIMIT to bind to a database query
+
+Optional
+Also included is a PHP include template fragment that provides pagination navigation with
+gettext strings. You can use it directly, or as an example if you want to do something different.
